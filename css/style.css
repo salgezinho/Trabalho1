@@ -1,0 +1,88 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header,
+footer {
+  background-color: #acb1d6;
+  color: #fff;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  color: #333;
+}
+
+main {
+  padding: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li a {
+  color: #333;
+  text-decoration: none;
+}
+
+#img {
+  width: 120px;
+  height: 120px;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 20px;
+  z-index: 9999;
+  text-align: center;
+}
+
+#popup-message {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link,
+a:visited {
+  color: black;
+  text-decoration: underline;
+}
+
+#competencias a:hover {
+  color: #b9eddd;
+}
+
+#experiencia-detalhes {
+  margin-top: 20px;
+}
+
+#experiencia-detalhes p {
+  margin-bottom: 10px;
+}
+
+#contato p {
+  margin: 5px 0;
+}
+
+#contato img {
+  vertical-align: middle;
+  margin-right: 5px;
+}
